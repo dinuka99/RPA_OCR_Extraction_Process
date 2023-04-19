@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1410.4,2552" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ug="clr-namespace:UiPath.GSuite;assembly=UiPath.GSuite" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="936,1014.4000000000001" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ug="clr-namespace:UiPath.GSuite;assembly=UiPath.GSuite" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="82">
       <x:String>System.Activities</x:String>
@@ -106,13 +106,13 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,2487.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,949.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uga:GSuiteApplicationScope Account="{x:Null}" ApiKey="{x:Null}" ContinueOnError="{x:Null}" Folder="{x:Null}" KeyPath="{x:Null}" SecureCredentialSecret="{x:Null}" ServiceAccountEmail="{x:Null}" TimeoutMS="{x:Null}" UserEmail="{x:Null}" AuthenticationType="OAuthClientID" CredentialID="849222073593-nacecoh90vn5i3lsjl4lqqpbh87ufse2.apps.googleusercontent.com" CredentialSecret="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" DataStoreLocation="Local disk" DisplayName="GSuite Application Scope" HasDomainWideAccesss="False" sap:VirtualizedContainerService.HintSize="483.2,1181.6" sap2010:WorkflowViewState.IdRef="GSuiteApplicationScope_1" KeyType="JSON" OAuthClient="Custom" Password="notasecret" Services="Unselected">
+    <uga:GSuiteApplicationScope Account="{x:Null}" ApiKey="{x:Null}" ContinueOnError="{x:Null}" Folder="{x:Null}" KeyPath="{x:Null}" SecureCredentialSecret="{x:Null}" ServiceAccountEmail="{x:Null}" TimeoutMS="{x:Null}" UserEmail="{x:Null}" AuthenticationType="OAuthClientID" CredentialID="101823691738-qgigcs3u74oa1s0l7tl5qi58v1bin8d3.apps.googleusercontent.com" CredentialSecret="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" DataStoreLocation="Local disk" DisplayName="GSuite Application Scope" HasDomainWideAccesss="False" sap:VirtualizedContainerService.HintSize="483.2,837.6" sap2010:WorkflowViewState.IdRef="GSuiteApplicationScope_1" KeyType="JSON" OAuthClient="Custom" Password="notasecret" Services="Unselected">
       <uga:GSuiteApplicationScope.AuthenticationScopes>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </uga:GSuiteApplicationScope.AuthenticationScopes>
@@ -121,7 +121,7 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ug:SimpleObjectContainer" Name="GSuiteScope" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1069.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,725.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="emailOut" />
             </Sequence.Variables>
@@ -130,43 +130,9 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="387.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,164.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uga:SendEmail AttachmentList="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" AuthScopesInvalid="False" Body="[&quot;&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h5&gt;Dear All,&lt;/h5&gt;&#xA;&lt;h5&gt; Online Resource Monitoring Process successfully completed.&lt;/h5&gt;&#xA;&#xA;&lt;a href=&quot;&quot;www.innobothealth.com&quot;&quot; target=&quot;&quot;_blank&quot;&quot;&gt;&#xA;&lt;img src=&quot;&quot;https://innobothealth.com/img/upload/innobot_practice_logo.png&quot; +&quot;height=&quot;&quot;80&quot;&quot; alt=&quot;&quot;logo&quot;&quot; style=&quot;&quot;display:block;border:0px;border-radius: 0px&quot;&quot; border=&quot;&quot;0&quot;&quot;&gt;&#xA;&lt;/a&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Thank You &lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;ROBOTIC PROCESS AUTOMATION DEPARTMENT&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;u&gt;www.innobothealth.com&#xA;&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;13800 Heacock Street Suite C-214&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Moreno Valley, CA 92553&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xA;&#xA;&lt;h6 style=&quot;&quot;color: tomato;&quot;&quot;&gt;Confidentiality Notice: This electronic message Is intended To be For the use only Of the named recipient, And may contain information that Is confidential Or privileged. If you are Not the intended recipient, you are hereby notified that any disclosure, copying, distribution Or use Of the contents Of this message Is strictly prohibited. If you have received this message In Error Or are Not the named recipient, please notify us immediately By contacting the sender at the electronic mail address noted above, And delete And destroy all copies Of this message. Thank you..&lt;/h6&gt;&#xA;&#xA;&lt;h6 style=&quot;&quot;color: tomato;&quot;&quot;&gt;This Is a RPA generated email. Please Do Not respond To this email.&lt;/h6&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&quot;]" DisplayName="Send Mail Message" sap:VirtualizedContainerService.HintSize="387.2,52.8" sap2010:WorkflowViewState.IdRef="SendEmail_1" IsDraft="False" IsHTML="True" Subject="Test Online Resource Monitoring Process" To="[{&quot;dthilakarathne@innobothealth.com,dthilakarathne@innobothealth.com&quot;}]">
-                    <uga:SendEmail.Attachments>
-                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                        <InArgument x:TypeArguments="x:String">C:\Users\Dinuka Thilakarathne\Desktop\RPA - Online Resource Monitoring Bot Process\ORMBP Dec-14.txt</InArgument>
-                      </scg:List>
-                    </uga:SendEmail.Attachments>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </uga:SendEmail>
-                </Sequence>
-              </ui:CommentOut.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:CommentOut>
-            <ui:ReadTextFile File="{x:Null}" Content="[emailOut]" DisplayName="Read Text File" FileName="Email List.txt" sap:VirtualizedContainerService.HintSize="387.2,80.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[emailOut]" />
-            <uga:SendEmail AttachmentList="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" AuthScopesInvalid="False" Body="[&quot;&lt;!DOCTYPE html&gt;&#xA;&lt;html&gt;&#xA;&lt;body&gt;&#xA;&#xA;&#xA;&lt;p&gt;Hi,&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Please find attached the status report for Online Resource Monitoring Process.&lt;/p&gt;&lt;br&gt;&#xA;&#xA;&lt;p &gt;&lt;i style=&quot;&quot;color:DodgerBlue&quot;&quot;&gt;Best Regards&lt;/i&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;3&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Innobot Health &lt;/b&gt;&#xA;&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;ROBOTIC PROCESS AUTOMATION DEPARTMENT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xA;&#xA;&#xA;&lt;span style=&quot;&quot;font-size:12px&quot;&quot;&gt;1507 NW 34th Ave | Cape Coral, FL 33993.&lt;br&gt;&#xA;Office: (888) 341-1009  &lt;br&gt;&#xA;Website: www.innobothealth.com&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;img src=&quot;&quot;https://innobothealth.com/img/upload/innobot_practice_logo.png&quot;&quot; width=&quot;&quot;250&quot;&quot; height=&quot;&quot;80&quot;&quot;&gt;&#xA;&lt;p style=&quot;&quot;font-size:12px&quot;&quot;&gt;&lt;b&gt;This Is a RPA generated email. Please Do Not respond To this email.&lt;/b&gt;&lt;/p&gt;&#xA;&#xA;&lt;font size=&quot;&quot;1&quot;&quot; color=&quot;&quot;#808080&quot;&quot;&gt;&lt;b&gt;Confidentiality Notice: This electronic message is intended to be for the use only of the named recipient, and may contain information that is confidential or privileged. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of the contents of this message is strictly prohibited. If you have received this message in error or are not the named recipient, please notify us immediately by contacting the sender at the electronic mail address noted above, and delete and destroy all copies of this message. Thank you.&lt;/b&gt;&#xA;&lt;/font&gt;&lt;br&gt;&#xA;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&quot;]" DisplayName="Send Mail Message" sap:VirtualizedContainerService.HintSize="387.2,613.6" sap2010:WorkflowViewState.IdRef="SendEmail_2" IsDraft="False" IsHTML="True" Subject="Test Online Resource Monitoring Process" To="[{emailOut}]">
+            <uga:SendEmail AttachmentList="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" AuthScopesInvalid="False" Body="[&quot;&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Hi,&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Please find attached the status report for Online Resource Monitoring Process.&lt;/p&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&lt;p &gt;&lt;i style=&quot;&quot;color:DodgerBlue&quot;&quot;&gt;Best Regards&lt;/i&gt;&lt;br&gt;&#xD;&#xA;&lt;font size=&quot;&quot;3&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Innobot Health &lt;/b&gt;&#xD;&#xA;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;ROBOTIC PROCESS AUTOMATION DEPARTMENT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;span style=&quot;&quot;font-size:12px&quot;&quot;&gt;1507 NW 34th Ave | Cape Coral, FL 33993.&lt;br&gt;&#xD;&#xA;Office: (888) 341-1009  &lt;br&gt;&#xD;&#xA;Website: www.innobothealth.com&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#xD;&#xA;&lt;img src=&quot;&quot;https://innobothealth.com/img/upload/innobot_practice_logo.png&quot;&quot; width=&quot;&quot;250&quot;&quot; height=&quot;&quot;80&quot;&quot;&gt;&#xD;&#xA;&lt;p style=&quot;&quot;font-size:12px&quot;&quot;&gt;&lt;b&gt;This Is a RPA generated email. Please Do Not respond To this email.&lt;/b&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;font size=&quot;&quot;1&quot;&quot; color=&quot;&quot;#808080&quot;&quot;&gt;&lt;b&gt;Confidentiality Notice: This electronic message is intended to be for the use only of the named recipient, and may contain information that is confidential or privileged. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of the contents of this message is strictly prohibited. If you have received this message in error or are not the named recipient, please notify us immediately by contacting the sender at the electronic mail address noted above, and delete and destroy all copies of this message. Thank you.&lt;/b&gt;&#xD;&#xA;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&quot;]" DisplayName="Send Mail Message" sap:VirtualizedContainerService.HintSize="387.2,613.6" sap2010:WorkflowViewState.IdRef="SendEmail_2" IsDraft="False" IsHTML="True" Subject="Test " To="[{&quot;dthilakarathne@innobothealth.com&quot;}]">
               <uga:SendEmail.Attachments>
-                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                  <InArgument x:TypeArguments="x:String">C:\Users\Dinuka Thilakarathne\Desktop\RPA - Online Resource Monitoring Bot Process\ORMBP Dec-14.txt</InArgument>
-                </scg:List>
+                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4" />
               </uga:SendEmail.Attachments>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -178,33 +144,12 @@
           </Sequence>
         </ActivityAction>
       </uga:GSuiteApplicationScope.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uga:GSuiteApplicationScope>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="483.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;D:\Online Resource Process\&quot;+Now.AddDays(-7).ToString(&quot;MMM-yyy&quot;)+&quot;\&quot;+Now.AddDays(-7).ToString(&quot;MMM-dd&quot;)+&quot;\&quot;]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="483.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[&quot;D:\Online Resource Process\&quot;+Now.AddDays(-1).ToString(&quot;MMM-yyy&quot;)+&quot;\&quot;+Now.AddDays(-7).ToString(&quot;MMM-dd&quot;)+&quot;\&quot;]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="483.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[New DateTime(Now.Year,Now.Month,1).AddDays(-1).ToString(&quot;dd/mm/yyyy&quot;)]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="483.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[Now.DayOfWeek.ToString]" />
-    <If Condition="[Now.DayOfWeek.ToString =&quot;Wednesday&quot;]" sap:VirtualizedContainerService.HintSize="483.2,511.2" sap2010:WorkflowViewState.IdRef="If_1">
-      <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="377.6,180" sap2010:WorkflowViewState.IdRef="Sequence_2">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="True" />
-        </Sequence>
-      </If.Then>
-      <If.Else>
-        <Sequence sap:VirtualizedContainerService.HintSize="377.6,180" sap2010:WorkflowViewState.IdRef="Sequence_3">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="False" />
-        </Sequence>
-      </If.Else>
-    </If>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="483.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="(?&lt;=Revision Date - )(\w{3,8} \d{4})(?= )" />
   </Sequence>
 </Activity>
