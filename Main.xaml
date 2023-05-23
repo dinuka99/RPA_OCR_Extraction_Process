@@ -47,63 +47,65 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="57">
-      <AssemblyReference>System.Activities</AssemblyReference>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="114">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
-      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.CodeDom</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
-      <AssemblyReference>UiPath.Mail</AssemblyReference>
-      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.GSuite</AssemblyReference>
       <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,949.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -130,7 +132,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uga:SendEmail AttachmentList="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" AuthScopesInvalid="False" Body="[&quot;&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Hi,&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Please find attached the status report for Online Resource Monitoring Process.&lt;/p&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&lt;p &gt;&lt;i style=&quot;&quot;color:DodgerBlue&quot;&quot;&gt;Best Regards&lt;/i&gt;&lt;br&gt;&#xD;&#xA;&lt;font size=&quot;&quot;3&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Innobot Health &lt;/b&gt;&#xD;&#xA;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;ROBOTIC PROCESS AUTOMATION DEPARTMENT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;span style=&quot;&quot;font-size:12px&quot;&quot;&gt;1507 NW 34th Ave | Cape Coral, FL 33993.&lt;br&gt;&#xD;&#xA;Office: (888) 341-1009  &lt;br&gt;&#xD;&#xA;Website: www.innobothealth.com&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#xD;&#xA;&lt;img src=&quot;&quot;https://innobothealth.com/img/upload/innobot_practice_logo.png&quot;&quot; width=&quot;&quot;250&quot;&quot; height=&quot;&quot;80&quot;&quot;&gt;&#xD;&#xA;&lt;p style=&quot;&quot;font-size:12px&quot;&quot;&gt;&lt;b&gt;This Is a RPA generated email. Please Do Not respond To this email.&lt;/b&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;font size=&quot;&quot;1&quot;&quot; color=&quot;&quot;#808080&quot;&quot;&gt;&lt;b&gt;Confidentiality Notice: This electronic message is intended to be for the use only of the named recipient, and may contain information that is confidential or privileged. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of the contents of this message is strictly prohibited. If you have received this message in error or are not the named recipient, please notify us immediately by contacting the sender at the electronic mail address noted above, and delete and destroy all copies of this message. Thank you.&lt;/b&gt;&#xD;&#xA;&lt;/font&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&quot;]" DisplayName="Send Mail Message" sap:VirtualizedContainerService.HintSize="387.2,613.6" sap2010:WorkflowViewState.IdRef="SendEmail_2" IsDraft="False" IsHTML="True" Subject="Test " To="[{&quot;dthilakarathne@innobothealth.com&quot;}]">
+            <uga:SendEmail AttachmentList="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" AuthScopesInvalid="False" Body="[&quot;&lt;!DOCTYPE html&gt;&#xA;&lt;html&gt;&#xA;&lt;body&gt;&#xA;&#xA;&#xA;&lt;p&gt;Hi,&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Please find attached the status report for Online Resource Monitoring Process.&lt;/p&gt;&lt;br&gt;&#xA;&#xA;&lt;p &gt;&lt;i style=&quot;&quot;color:DodgerBlue&quot;&quot;&gt;Best Regards&lt;/i&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;3&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;Innobot Health &lt;/b&gt;&#xA;&lt;/font&gt;&lt;br&gt;&#xA;&lt;font size=&quot;&quot;2&quot;&quot; color=&quot;&quot;#03989e&quot;&quot;&gt;&lt;b&gt;ROBOTIC PROCESS AUTOMATION DEPARTMENT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&#xA;&#xA;&#xA;&lt;span style=&quot;&quot;font-size:12px&quot;&quot;&gt;1507 NW 34th Ave | Cape Coral, FL 33993.&lt;br&gt;&#xA;Office: (888) 341-1009  &lt;br&gt;&#xA;Website: www.innobothealth.com&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;img src=&quot;&quot;https://innobothealth.com/img/upload/innobot_practice_logo.png&quot;&quot; width=&quot;&quot;250&quot;&quot; height=&quot;&quot;80&quot;&quot;&gt;&#xA;&lt;p style=&quot;&quot;font-size:12px&quot;&quot;&gt;&lt;b&gt;This Is a RPA generated email. Please Do Not respond To this email.&lt;/b&gt;&lt;/p&gt;&#xA;&#xA;&lt;font size=&quot;&quot;1&quot;&quot; color=&quot;&quot;#808080&quot;&quot;&gt;&lt;b&gt;Confidentiality Notice: This electronic message is intended to be for the use only of the named recipient, and may contain information that is confidential or privileged. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of the contents of this message is strictly prohibited. If you have received this message in error or are not the named recipient, please notify us immediately by contacting the sender at the electronic mail address noted above, and delete and destroy all copies of this message. Thank you.&lt;/b&gt;&#xA;&lt;/font&gt;&lt;br&gt;&#xA;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&quot;]" DisplayName="Send Mail Message" sap:VirtualizedContainerService.HintSize="387.2,613.6" sap2010:WorkflowViewState.IdRef="SendEmail_2" IsDraft="False" IsHTML="True" Subject="Test " To="[{&quot;dthilakarathne@innobothealth.com&quot;}]">
               <uga:SendEmail.Attachments>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4" />
               </uga:SendEmail.Attachments>
